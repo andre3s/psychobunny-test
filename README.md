@@ -1,9 +1,9 @@
 # psychobunny-test
 Test Data Engineer at PsychoBunny
 
-- **`libraries/data_extraction.py` **: Defines the `extract_data` function that fetches data from S3.
-- **`libraries/data_transforming.py` **: Defines the `data_transform` function for data processing.
-- **`libraries/data_loading.py` **: Defines the `load_data` function that writes data to the database.
+- `libraries/data_extraction.py` **: Defines the `extract_data` function that fetches data from S3.
+- `libraries/data_transforming.py` **: Defines the `data_transform` function for data processing.
+- `libraries/data_loading.py` **: Defines the `load_data` function that writes data to the database.
 
 ## Key Features
 - **Dynamic Task Creation**: Generates extract, transform, and load tasks for multiple file types in the workflow.
