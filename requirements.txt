@@ -1,0 +1,5 @@
+apache-airflow==2.10.4
+pandas==2.2.3
+boto3==1.36.24
+openpyxl==3.1.5
+pymysql==1.1.1

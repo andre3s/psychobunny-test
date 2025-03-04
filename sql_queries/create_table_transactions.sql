@@ -1,0 +1,27 @@
+DROP TABLE IF EXISTS psychobunny_db.transactions;
+CREATE TABLE psychobunny_db.transactions (
+    ordernumber INT,
+    productcode VARCHAR(50),
+    quantityordered INT,
+    orderlinenumber INT,
+    total_amount DECIMAL(10, 2),
+    orderdate DATETIME,
+    qtr_id INT,
+    month_id INT,
+    year_id INT,
+    customername VARCHAR(255),
+    phone VARCHAR(20),
+    addressline1 VARCHAR(255),
+    addressline2 VARCHAR(255),
+    city VARCHAR(100),
+    state VARCHAR(50),
+    postalcode VARCHAR(20),
+    country VARCHAR(100),
+    territory VARCHAR(50),
+    contactlastname VARCHAR(100),
+    contactfirstname VARCHAR(100),
+    dealsize VARCHAR(50),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    PRIMARY KEY (ordernumber, productcode)
+);
