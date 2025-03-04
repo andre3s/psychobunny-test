@@ -8,8 +8,8 @@ CREATE TABLE IF NOT EXISTS psychobunny_db.customers (
     county VARCHAR(255) NULL,
     state VARCHAR(255) NULL,
     postal VARCHAR(50) NULL,  -- Unified column for zip/postal/post
-    phone1 VARCHAR(50),
-    phone2 VARCHAR(50),
+    phone1 VARCHAR(255),
+    phone2 VARCHAR(255),
     email VARCHAR(255),
     web VARCHAR(255),
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,

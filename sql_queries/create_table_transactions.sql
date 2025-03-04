@@ -10,7 +10,7 @@ CREATE TABLE psychobunny_db.transactions (
     month_id INT,
     year_id INT,
     customername VARCHAR(255),
-    phone VARCHAR(20),
+    phone VARCHAR(255),
     addressline1 VARCHAR(255),
     addressline2 VARCHAR(255),
     city VARCHAR(100),
