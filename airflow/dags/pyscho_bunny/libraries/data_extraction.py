@@ -61,5 +61,6 @@ def extract_data(s3_prefix: str, file_type: str):
         raise ValueError("No files found in S3 bucket!")
 
     df_final = _read_content_files(bucket_name, list_files, file_type=file_type)
+    print(list_files)
 
     return df_final
